@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Prata&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Prata|Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="liste.css">
+    <title>Liste de naissance</title>
+</head>
+<body>
+    <header>
+        <br/>
+      <div class="titree">
+         <img class="bébé" src="images/bébé.jpg">  
+        <h1 class="titre">Accès au Formulaire</h1> 
+      </div>  
+    </header>
+        <main>
+            <div class="container">
+                <form action="">
+                  <input type="text" id="fnom" name="Objet" placeholder="Votre Objet">
+                  <input type="text" id="lprénom" name="Description Produit" placeholder="Description">
+                  <select id="count" name="count">
+                    <option value="cat">Catégorie</option>
+                    <option value="Achetés">Les objets ayant déjà été achetés</option>
+                    <option value="Sélectionnés">Les objets ayant été sélectionnés par des amis</option>
+                    <option value="Urgent">Les objets urgents </option>
+                    <option value="Normaux">Les objets normaux </option>
+                  </select>
+                  <textarea id="sub" name="sub" placeholder="Commentaires " style="height:200px"></textarea>
+                  <input type="submit" value="Ajouts">
+                </form>
+              </div>
+                  
+                <form action="liste.html">
+                  <a href="liste.html"><input class="access" type="submit" value="Accès à la liste"></a>
+                </form>
+        </main>
+</body>
+
